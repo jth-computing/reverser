@@ -23,4 +23,4 @@ Leading zeroes are discarded.
 
 To run the tests, use:
 
-	PYTHONPATH=src tests/test_reverseno.py
+	PYTHONPATH=src python tests/test_reverseno.py
