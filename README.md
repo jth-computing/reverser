@@ -29,3 +29,7 @@ On Windows, please use:
 
 	set PYTHONPATH=src
 	python tests/test_reverseno.py
+
+To run the doctests, use:
+
+	python src/reverselib.py
