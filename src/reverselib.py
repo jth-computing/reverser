@@ -7,6 +7,9 @@ def reverse(n):
 
     >>> reverse(234)
     432
+
+    >>> reverse(567)
+    765
     """
     r = 0
     while n > 1:
