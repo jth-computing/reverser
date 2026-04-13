@@ -6,4 +6,4 @@ run:
 	python src/reverser.py
 
 test:
-	PYTHONPATH=src pytest
+	PYTHONPATH=src python tests/test_reverseno.py
