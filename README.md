@@ -9,11 +9,7 @@ and prints its reverse.
 
 ## Running the program
 
-You can run the program from the Makefile:
-
-	make run
-
-Or directly by using `python`:
+You can run the program like so:
 
 	$ python src/reverser.py
 	Type a number: 123
@@ -27,8 +23,4 @@ Leading zeroes are discarded.
 
 To run the tests, use:
 
-	make test
-
-Or simply call pytest:
-
-	PYTHONPATH=src pytest
+	PYTHONPATH=src tests/test_reverseno.py
