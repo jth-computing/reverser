@@ -12,6 +12,6 @@ class TestReverse(unittest.TestCase):
         self.assertEqual(reverse(2345), 5432)
     
     def test_tre(self):
-        self.assertNotEqual(reverse(234), 324)
+        self.assertNotEqual(reverse(234), 234)
 if __name__ == '__main__':
     unittest.main()
