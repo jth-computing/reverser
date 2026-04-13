@@ -8,5 +8,8 @@ class TestReverse(unittest.TestCase):
     def test_ott(self):
         self.assertEqual(reverse(234), 432)
 
+    def test_jennifer(self):
+        self.assertEqual(reverse(2026), 6202)
+
 if __name__ == '__main__':
     unittest.main()
