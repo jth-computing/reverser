@@ -21,3 +21,4 @@ jobs:
     - run: python src/reverselib.py
     - run: PYTHONPATH=src pytest
     - run: make test
+    - run: make coverage

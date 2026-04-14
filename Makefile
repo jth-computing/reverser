@@ -7,3 +7,8 @@ run:
 
 test:
 	PYTHONPATH=src python tests/test_reverseno.py
+
+coverage:
+	rm -rf .coverage
+	PYTHONPATH=src coverage run tests/test_reverseno.py
+	PYTHONPATH=src coverage report
